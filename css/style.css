@@ -1,243 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
-body{
-   max-width: 1000px;
-   margin: auto;
-    background-color:#f2f4f9;
-    font-family: 'Lexend Mega', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f2f4f9;
+  font-family: "Lexend Mega", sans-serif;
 }
-.first-part{
-    display: flex;
-     width: 100%;
-    
-    
+.first-part {
+  display: flex;
+  width: 100%;
 }
-.intro{
-    padding-left: 80px;
-flex-direction: column; width: 50%;
-}
-
-.button{
-    border-radius: 30px;
-    text-align: center;
-    height: 10%;
-    width: auto;
-    display: inline-block; 
-    
-    
-}
-.hello{
-    color: red;
-}
-.button-red{
-    background-color: red;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-    
-}
-.button-white{
-    background-color: white;
-    color:red;
-    padding: 10px 10px;
-    text-decoration: none;
-    border: 1px solid red;
-    }
-.second-part{
-    margin: auto;
-    width: 80%;
-    border: 3px solid white;
-    padding: 10px;
-    background-color: white;
-    
-}
-.other{
-    color: red;
-    text-align: center;
-}
-.next{
-   padding-bottom: 20px;
-    text-align: center;   
+.intro {
+  padding-left: 80px;
+  flex-direction: column;
+  width: 50%;
 }
 
-a{
-    text-decoration: none;
+.button {
+  border-radius: 30px;
+  text-align: center;
+  height: 10%;
+  width: auto;
+  display: inline-block;
+}
+.hello {
+  color: red;
+}
+.button-red {
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.button-white {
+  background-color: white;
+  color: red;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+.second-part {
+  margin: auto;
+  width: 80%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: white;
+}
+.other {
+  color: red;
+  text-align: center;
+}
+.next {
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.special other next{
-    
-    display: flex;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.one{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.expt{
-    color: red;
-}
-.skills{
-    text-align: center;
-}
-.model-two{
-    margin: auto;
-    width: 40%;
-    height: 40%;
-    border: 3px solid white;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-    height: 120px;
-}
-.fourth{
-    display: flex;
+a {
+  text-decoration: none;
 }
 
-.graphs{
-    margin: auto;
-    width: 80%;
-    border: 3px solid white;
-    padding: 10px;
-    background-color: white;
+.special other next {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.expt {
+  color: red;
+}
+.skills {
+  text-align: center;
+}
+.model-two {
+  margin: auto;
+  width: 40%;
+  height: 40%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  height: 120px;
+}
+.fourth {
+  display: flex;
 }
 
-.port{
-    text-align: center;
-    padding-left: 80px;
-
+.graphs {
+  margin: auto;
+  width: 80%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: white;
 }
 
-.gimage{
-    padding-right: 70px;
-}
-.folio{
-    color: red;
-}
-    
- .graphs{
-     padding-top: 150px;
-    display: flex;
-    justify-content: space-between;
-    
-        padding-top: 20px;
- }   
-
- .button2{
-    border-radius: 30px;
-    text-align: center;
-    /* height: 10%; */
-    /* width: 50%; */
-    display: inline-block; 
-    
- }
- .button-red2{
-    background-color: red;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
- }
- .quali{
-     color: red;
- }
- .qualification{
-    text-align: center;
- }
-
- .button3{
-    border-radius: 30px;
-    text-align: center;
-    height: 10%;
-    width: auto;
-    display: inline-block; 
-    font-size: 0.9rem;
-    padding: 0.6rem 1.5rem;
-    margin: 0 0.5rem;
-    
-    
- }
- .button-red3{
-    background-color: red;
-    color: white;
-    /* padding: 10px 10px; */
-    text-decoration: none;
- }
-
- .button-white3{
-    background-color: white;
-    color:red;
-    /* padding: 10px 10px; */
-    text-decoration: none;
-    border: 1px solid red;
-    }
-    .model3b{
-        border: 3px solid white;
-        background-color: white;
-       width: fit-content;
-       /* padding-left: 10px; */
-       border-radius: 40px;
-       text-align: center;
-       display: flex;
-flex-wrap: nowrap;
-margin: auto;
-padding: 0.3rem;
-      
-    }
- .university{
-margin: auto;
-    text-align: left;
-border: 3px solid white;
-height: 200px;
-width: auto;
-background-color: white;
- list-style-type: none;
-}
- .courses3{
-    
-    /* padding-left: 300px; */
-    flex-direction: column;
+.port {
+  text-align: center;
+  padding-left: 80px;
 }
 
-.model3{
-    display: flex;
+.gimage {
+  padding-right: 70px;
 }
-.test{
-    color: red;
-}
-.last{
-    text-align: center;
-}
-.container{
-    border: 3px solid white;
-        background-color: white;
-       width: 50%;
-         
-}
-.done{
-    display: flex;
-}
-.last-image{
-    padding-right: 30px;
-}
-.last-image2{
-    padding-left: 30px;
-}
-.mail{
-    border: 3px solid white;
-    background-color: white;
-   width: 50%;
-   padding-left: 10px;
-   text-align: center;
-   display: flex;
-justify-content: center;
-padding-right: 130px;
-padding-left: 130px;
-position: absolute;
- 
+.folio {
+  color: red;
 }
 
-.navigation{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
+.graphs {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+}
+
+.button2 {
+  border-radius: 30px;
+  text-align: center;
+  /* height: 10%; */
+  /* width: 50%; */
+  display: inline-block;
+}
+.button-red2 {
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.quali {
+  color: red;
+}
+.qualification {
+  text-align: center;
+}
+
+.button3 {
+  border-radius: 30px;
+  text-align: center;
+  height: 10%;
+  width: auto;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.5rem;
+  margin: 0 0.5rem;
+}
+.button-red3 {
+  background-color: red;
+  color: white;
+  /* padding: 10px 10px; */
+  text-decoration: none;
+}
+
+.button-white3 {
+  background-color: white;
+  color: red;
+  /* padding: 10px 10px; */
+  text-decoration: none;
+  border: 1px solid red;
+}
+.model3b {
+  border: 3px solid white;
+  background-color: white;
+  width: fit-content;
+  /* padding-left: 10px; */
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: 0.3rem;
+}
+.university {
+  margin: auto;
+  text-align: left;
+  border: 3px solid white;
+  height: 200px;
+  width: auto;
+  background-color: white;
+  list-style-type: none;
+}
+.courses3 {
+  /* padding-left: 300px; */
+  flex-direction: column;
+}
+
+.model3 {
+  display: flex;
+}
+.test {
+  color: red;
+}
+.last {
+  text-align: center;
+}
+.container {
+  border: 3px solid white;
+  background-color: white;
+  width: 50%;
+}
+.done {
+  display: flex;
+}
+.last-image {
+  padding-right: 30px;
+}
+.last-image2 {
+  padding-left: 30px;
+}
+.mail {
+  border: 3px solid white;
+  background-color: white;
+  width: 50%;
+  padding-left: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-right: 130px;
+  padding-left: 130px;
+  position: absolute;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
 }
